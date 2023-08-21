@@ -1,0 +1,30 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.service.PersonService;
+
+import ch.qos.logback.core.model.Model;
+
+
+@RestController
+public class PersonController {
+	@Autowired
+	PersonService personService;
+	
+	
+  @GetMapping("/")
+	public String homepage(Model model) {
+	   personService.getAllData(model);
+		return "hello";
+	}
+	
+//  @GetMapping("/info")
+//  public String info() {
+//	  return "home";
+//  }
+	
+
+}

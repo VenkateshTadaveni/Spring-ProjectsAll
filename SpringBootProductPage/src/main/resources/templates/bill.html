@@ -1,0 +1,33 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body bgcolor="pink" style="margin-left: 10%;">
+
+	<h1>This is</h1>
+		<h1 th:text="${product.pName}"></h1><h1> Product Data...,</h1> 
+	
+	<h2>Product Name:</h2>
+	<h3 th:text="${product.pName}"/>
+	</div>
+	
+	<h2>Product Price:</h2>
+	<h3 th:text="${product.pCost}"/>
+	</div>
+	<h2>Product Quantity:</h2>
+	<h3 th:text="${product.pQuantity}"/>
+	</div>
+	<h2>totalBill..,:</h2>
+	<h3 th:text="${product.totalBil}"/>
+
+	</h3>
+	<h2>discount..,:</h2>
+	<h3 th:text="${product.discout}"/>
+
+	</div>
+	<h2>netAmount..,:</h2>
+	<h3 th:text="${product.netAmount}"/>
+
+	</div>
+
+	</body>
+
+</html>

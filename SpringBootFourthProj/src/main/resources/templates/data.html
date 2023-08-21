@@ -1,0 +1,26 @@
+<html xmlns: th="http://www.thymeleaf.org">
+
+<body>
+
+
+
+	<div>
+		<table border="1" align="center" cellspacing="10px" cellpadding="10px">
+			<tr>
+				<th>StudentId</th>
+				<th>StudentName</th>
+				<th>StudentMarks</th>
+			</tr>
+			
+
+			<tr th:each="item : ${persons}">
+			<td th:text="${item .firstName}" />
+			<td th:text="${item .lastName}" />
+			<td th:text="${item .email}" />
+			</tr>
+		</table>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.demo.service.PersonService;
+
+
+@Controller
+public class PersonController {
+	@Autowired
+	PersonService personService;
+	
+	
+  @GetMapping("/test")
+	public String homepage() {
+		return "hello";
+	}
+	
+  @GetMapping("/info")
+  public String info() {
+	  return "home";
+  }
+	
+
+}

@@ -1,0 +1,39 @@
+
+ <html lang="en" xmlns:th="http://www.thyemeleaf.org">
+
+<body bgcolor="orange" style="text-align: center">
+
+	<form method="post" action="/loginProcess">
+		<h1>Login Page Processing....,</h1>
+		<div>
+			<label>Username:</label>
+			<input type="text" name="username">
+
+
+		</div>
+		<br>
+
+		<div>
+			<label>Password:</label>
+			<input type="password" name="password">
+
+
+		</div>
+			<br>
+		<div>
+			<input type="submit" name="Login">
+
+		</div>
+		
+		<div th:if="${param.success}">
+			<h3 style="color:red;">login page success</h3>
+		</div>
+		<div th:if="${param.error}">
+			<h3  style="color:green;">login page failed</h3>
+		</div>
+
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<html  xmlns:th="http://www.thymleaf.org">
+      
+      <body bgcolor="pink">
+		<div align="center">
+		
+		<h1>Product List</h1>
+		<a href="new">Create New Product</a>
+		<br><br/>
+		<table border="1" cellspacing="2px">
+			<tr>
+				<th>
+					Product id
+				</th>
+				<th>Product name</th>
+				<th>Product Brand</th>
+				<th>
+					Product madein 
+				</th>
+				<th>Product Price</th>
+				<th>Actions...</th>
+			</tr>
+			<tr th:each="product:${product}">
+		         <td th:text="${product.id}"/>
+				<td th:text="${product.name}"/>
+				<td th:text="${product.brand}"/>
+				<td th:text="${product.madein}"/>
+				<td th:text="${product.price}"/>
+				<td>
+					<a th:href="@{'/edit/'+${product.id}}">Edit</a>
+					<a th:href="@{'/delete/'+${product.id}}">Deleted</a>
+				</td>
+				
+			</tr>
+		</table>
+		</div>
+      </body>
+</html>
+			
+	

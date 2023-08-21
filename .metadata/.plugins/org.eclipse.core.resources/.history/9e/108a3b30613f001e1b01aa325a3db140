@@ -1,0 +1,10 @@
+<html xmlns="http://thymeleaf.org">
+	<head>
+		<title>Rigistraion successFull</title>
+	</head>
+	<body>
+		<h1>Thank you for Ur Registering....</h1>
+		<h3>Your Registraion was Successfull</h3>
+		<a href="home">Click here to Go Homepage to Login</a>
+	</body>
+</html>

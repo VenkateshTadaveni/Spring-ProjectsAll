@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.example.demo.Person"><rhs name\="com.example.demo.Person"/></lhs><lhs name\="java.lang.Enum"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/><rhs name\="jakarta.persistence.GenerationType"/><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/><rhs name\="jakarta.persistence.GenerationType"/><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="com.example.demo.Emp"><rhs name\="com.example.demo.Emp"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.example.demo.Product"><rhs name\="com.example.demo.Product"/></lhs><lhs name\="com.example.demo.Employee"><rhs name\="com.example.demo.Employee"/></lhs><lhs name\="com.venky.lombokEx.Emp"><rhs name\="com.venky.lombokEx.Emp"/></lhs><lhs name\="com.example.demo.User"><rhs name\="com.example.demo.User"/></lhs><lhs name\="com.example.demo.UserEntity"><rhs name\="com.example.demo.UserEntity"/></lhs><lhs name\="com.example.demo.Player"><rhs name\="com.example.demo.Player"/></lhs></history>
+content_assist_number_of_computers=15
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,29 @@
+
+<html xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration form Processing....,</h2>
+    <div class="text-center">
+<form action="@{/register}" method="post" th:object="${person}">
+
+
+<label>Enter Your Name:</label>
+<input type="text" name="name" th:field=*{name}><br><br>
+
+<label>Email:</label>
+<input type="email" name="email" th:field=*{email}><br><br>
+<label>Designation:</label>
+<input type="text" name="desg" th:field=*{desg}><br><br>
+<label>Department</label>
+<input type="text" name="dept" th:field=*{dept}><br><br>
+<button type="button">Register</button>
+
+</form>
+
+</div> 
+</body>
+</html>

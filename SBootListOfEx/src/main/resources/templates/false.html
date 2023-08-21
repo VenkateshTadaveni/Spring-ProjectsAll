@@ -1,0 +1,31 @@
+<html xmlns: th="http://www.thymeleaf.org">
+	<body bgcolor="orange" style="text-align:center;">
+		<div>
+			<table border="1"
+			align="center"
+			cellspacing="10px"
+			cellpadding="10px">
+			<tr>
+				<th>Emp Id</th>
+			    <th>EmpName</th>
+				<th>EmpEmail</th>
+				<th>EmpSalary</th>
+				</tr>
+			
+					<tr th:each="p : ${emps}">
+					<td th:text="${p.eid}"/>
+					<td th:text="${p.ename}"/>
+					<td th:text="${p.email}"/>
+					<td th:text="${p.salary}"/>
+					
+		
+					
+					
+				</tr>
+			
+			<p th:text="${name}"/>
+			<p th:text="${Location}"/>
+			</table>
+		</div>
+	</body>
+</html>

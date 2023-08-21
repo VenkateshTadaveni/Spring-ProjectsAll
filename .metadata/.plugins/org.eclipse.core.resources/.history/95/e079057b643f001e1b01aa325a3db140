@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  
+        <!-- Including the bootstrap CDN -->
+        <link rel="stylesheet" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+        </script>
+        <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+        </script>
+
+
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-sm bg-light">
+               <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">DevLOVEper</a>
+    </div>
+
+
+    <ul class="nav navbar-nav ml-auto" style="padding-right: 0%;"> 
+            
+        
+                <li class="nav-item dropdown" style="padding-right: 50px;">
+                    <a  class="nav-link dropdown-toggle"
+                        href="#" id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                       >
+                        Home
+                    </a>
+                   <!-- dropdown options -->
+                    <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">page1</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">page2</a>
+                    </li>
+                   </ul>
+                </li>
+
+
+                <li class="nav-link"  style="padding-right: 50px;"><a href="new">Rigister</a></li>
+                <li class="nav-link"  style="padding-right: 50px;"><a href="#">Carrers</a></li>
+                <li class="nav-link"  style= "padding-right: 50px;"><a href="#">Password</a></li>
+                <li class="nav-link"  style="padding-right: 50px;"><a href="#">Login</a></li>
+                <li class="nav-link"  style="padding-right: 50px;"><a href="#">About</a></li>
+              </ul>
+    </div>
+    </nav>
+<div class="bg-image" 
+     style=" background-position:center;background-image:url();
+            height: 100vh">
+           <div class="container-fluid">
+            <h1 style="height: 100% ;width: 100px;">Success</h1>
+           </div>
+</div>
+       
+<div class="content" style="margin: 15% auto 0;">
+
+<h1>Down webpage</h1>
+
+
+</div>
+
+    <div class="container mt-3">
+        <h2>Example of Jumbotron</h2>
+        <div class="mt-4 p-4 bg-primary text-white rounded">
+          <h1>Jumbotron Example</h1> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+        </div>
+      </div>
+
+
+    
+
+        
+    </body>
+</html>

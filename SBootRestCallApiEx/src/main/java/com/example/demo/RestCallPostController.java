@@ -1,0 +1,27 @@
+package com.example.demo;
+
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class RestCallPostController {
+	String jokeApiUrl="https://official-joke-api.appspot.com/random_joke";
+String pinApiUrl="https://api.postalpincode.in/pincode/";
+	@GetMapping("/restapi/pincode/{pincode}")
+	public String getPincodeDatials(@PathVariable String pincode){
+		
+		
+		RestTemplate restTemplate=new RestTemplate();
+		return   restTemplate.getForObject(pinApiUrl+pincode, String.class);
+
+	}
+@GetMapping("/jokes/")
+public String getjokes() {
+	RestTemplate restTemplate=new RestTemplate();
+	return restTemplate.getForObject(jokeApiUrl, String.class);
+}
+}
